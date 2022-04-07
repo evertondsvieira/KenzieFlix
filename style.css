@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121114;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main figure.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main figure.logo img {
+    margin: 40px;
+}
+
+main h1 {
+    margin: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+main ul {
+    list-style: none;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main ul li.boxItem {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: solid 1px transparent;
+}
+
+main ul li.boxItem figure {
+    max-width: 160px;
+    max-height: 160px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+main ul li.boxItem figure:hover img {
+    transform: scale(1.2);
+    border: solid 1px white
+}
+
+
+.perfil{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    border: solid 1px transparent;
+    transition: all .5s;
+}
+
+.avatar:hover{
+    border: solid 1px white;
+}
+
+#avatar{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-image: url('./imagens/Frame\ 5.png');
+}
+
+#avatar:hover{
+    background-image: url('./imagens/Frame\ 6.png');
+}
+
+main ul li.boxItem figure:hover~h2 {
+    color: white;
+}
+
+main ul li.boxItem h2 {
+    margin: 5px;
+    font-size: 20px;
+    color: #9C9C9C;
+
+}
+
+main a {
+    text-decoration: none;
+    color: white;
+    background-color: #121114;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+main a:hover {
+    color: black;
+    background-color: white;
+}
